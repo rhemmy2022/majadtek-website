@@ -1,0 +1,385 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-plus">
+    <header class="shadow-sm fixed w-full z-20 bg-[rgb(2,51,71)] top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 w-10">
+                    <a href="index.html">
+                        <img src="../images/logo.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <nav class="hidden md:flex items-center space-x-8 text-white font-medium text-sm">
+                    <a href="about.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">About
+                        Us</a>
+                    <a href="solution.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Solutions</a>
+                    <a href="training.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Training
+                        Hub</a>
+                    <a href="portfolio.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Portfolio</a>
+                    <a href="career.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Careers</a>
+                </nav>
+
+                <a href="project.html"
+                    class="hidden md:flex items-center bg-[rgb(42,142,158)]  text-white px-6 py-2 rounded text-sm font-medium shadow-sm hover:bg-[rgb(2,51,71)] transition">
+                    Start a Project
+                </a>
+
+                <button id="mobile-menu-btn" class="md:hidden text-white p-2 focus:outline-none">
+                    <img src="../images/hamburger-menu-white.png" id="open-icon" alt="menu-icon" class="w-6 h-6">
+                    <img src="../images/close-icon-white.png" class="hidden w-6 h-6" id="close-icon" alt="close-icon">
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden bg-[rgb(2,51,71)] pb-4 pt-2">
+                <nav class="flex flex-col space-y-3 text-white font-medium text-sm px-2">
+                    <a href="about.html" class="nav-link block px-3 py-2 border-b-2 border-transparent transition">About
+                        Us</a>
+                    <a href="solution.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Solutions</a>
+                    <a href="training.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Training
+                        Hub</a>
+                    <a href="portfolio.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Portfolio</a>
+                    <a href="career.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Careers</a>
+                </nav>
+
+                <div class="my-6 px-3">
+                    <a href="project.html"
+                        class="bg-[rgb(42,142,158)] text-white px-6 py-2 rounded shadow-sm text-sm text-center font-semibold block hover:bg-[rgb(2,51,71)] transition">
+                        Start a Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-[rgb(2,51,71)]">
+        <div></div>
+        <div class="py-16 sm:py-20 lg:py-32 px-4 sm:px-10 lg:px-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+
+                <div class="text-white">
+                    <h1 class="text-2xl md:text-3xl lg:text-5xl font-semibold mb-6 
+                           leading-[40px] md:leading-[60px] lg:leading-[70px]">
+                        Smarter Solutions Built for a smarter world
+                    </h1>
+
+                    <p class="text-xs md:text-sm lg:text-base text-white leading-relaxed">
+                        At Majadtek, we design secure, scalable, and user-friendly technology
+                        that helps organizations work better, faster, and more efficiently.
+                    </p>
+                </div>
+
+                <!-- <div class="w-full h-64 md:h-80 lg:h-[70vh]">
+                        <img src="../images/solution-image.png" alt="">
+                    </div> -->
+
+                <div class="w-full h-64 md:h-96 lg:h-[70vh] overflow-hidden">
+                    <img src="../images/solution-image.png" alt="" class="w-full h-full object-cover object-center">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white">
+        <div class="mx-auto px-4 md:px-12 py-12 md:py-16 lg:py-20">
+
+            <div class="mb-8 md:mb-12">
+                <div
+                    class="inline-block bg-[rgb(245,250,255)] text-[rgb(42,142,158)] border border-[rgb(217,235,255)] text-xs sm:text-sm px-3 sm:px-4 py-1 rounded-full mb-2 sm:mb-4">
+                    Our Service
+                </div>
+                <h2 class="text-lg md:text-xl lg:text-3xl font-bold text-gray-900">Build. Innovate. Excel.</h2>
+            </div>
+
+            <div class="border border-gray-200 rounded-lg overflow-hidden">
+                <div class="bg-[rgb(42,142,158)] text-white p-6 md:p-8 lg:p-10">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                        <h3 class="text-base md:text-xl font-bold">Custom Software development</h3>
+                        <p class="text-sm leading-relaxed text-right">
+                            We design and develop secure, scalable, and user-friendly software tailored to your
+                            unique business needs. From web and mobile apps to enterprise platforms, our solutions
+                            simplify complex processes and enhance productivity.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white border-t border-gray-300 p-6 md:p-8 lg:p-10 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-xl font-bold text-gray-900">Government / Enterprise Projects</h3>
+                </div>
+
+                <div class="bg-white border-t border-gray-300 p-6 md:p-8 lg:p-10 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-xl font-bold text-gray-900">Digital Consulting</h3>
+                </div>
+
+                <div class="bg-white border-t border-gray-300 p-6 md:p-8 lg:p-10 hover:bg-gray-50 transition-colors">
+                    <h3 class="text-xl font-bold text-gray-900">IT Professional Courses</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50">
+        <div class="container mx-auto px-4 md:px-12 py-12 md:py-16 lg:py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 items-center">
+                <div>
+                    <h2 class="text-lg md:text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
+                        Robotics and STEM
+                    </h2>
+
+                    <p class="text-gray-600 text-base md:text-lg leading-relaxed mb-8">
+                        We introduce young learners and schools to hands-on STEM concepts through robotics,
+                        engineering activities, and real-world problem-solving.
+                    </p>
+
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <span class="w-2 h-2 bg-[rgb(42,142,158)] rounded-full mt-2 mr-3"></span>
+                            <span class="text-gray-700 text-base md:text-lg">Robotics Training for Schools</span>
+                        </li>
+
+                        <li class="flex items-start">
+                            <span class="w-2 h-2 bg-[rgb(42,142,158)] rounded-full mt-2 mr-3"></span>
+                            <span class="text-gray-700 text-base md:text-lg">Teacher Training & Curriculum
+                                Support</span>
+                        </li>
+
+                        <li class="flex items-start">
+                            <span class="w-2 h-2 bg-[rgb(42,142,158)] rounded-full mt-2 mr-3"></span>
+                            <span class="text-gray-700 text-base md:text-lg">Practical Project-Based Learning</span>
+                        </li>
+
+                        <li class="flex items-start">
+                            <span class="w-2 h-2 bg-[rgb(42,142,158)] rounded-full mt-2 mr-3"></span>
+                            <span class="text-gray-700 text-base md:text-lg">Competitions & Innovation
+                                Challenges</span>
+                        </li>
+                    </ul>
+
+                    <button
+                        class="bg-[rgb(42,142,158)] hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300">
+                        Contact Us
+                    </button>
+                </div>
+
+                <div class="order-first lg:order-last">
+                    <img src="../images/robotic.png" alt="Students working on robotics projects"
+                        class="w-full h-auto object-cover shadow-lg">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white">
+        <div class="container mx-auto px-4 md:px-12 lg:px-16 py-12 md:py-16 lg:py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../images/training-image.png" alt="Digital learning interface"
+                            class="w-full h-64 md:h-80 lg:h-[50vh] object-cover">
+                    </div>
+
+                    <div class="overflow-hidden rounded-lg shadow-lg">
+                        <img src="../images/student-working.png" alt="Student working"
+                            class="w-full h-64 md:h-80 lg:h-[50vh] object-cover">
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                        Training Hub
+                    </h2>
+                    <p class="text-gray-600 text-base md:text-lg leading-relaxed mb-8">
+                        Our Training Hub provides hands-on learning experiences that prepare individuals &
+                        institutions for the demands of today's digital world.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-6 mb-10">
+                        <div class="flex flex-col gap-3">
+                            <div
+                                class="bg-gradient-to-t from-[rgb(233,118,12)] to-[rgb(233,78,12)] rounded-lg w-14 h-14 p-4">
+                                <img src="../images/Icon-1.png" class="w-full h-full object-contain" alt="icon">
+                            </div>
+                            <p class="text-gray-800 text-sm md:text-base font-medium">
+                                Real Time Course Progress Tracking
+                            </p>
+                        </div>
+
+                        <div class="flex flex-col gap-3">
+                            <div
+                                class="bg-gradient-to-t from-[rgb(120,195,85)] to-[rgb(85,195,96)] rounded-lg p-4 w-14 h-14">
+                                <img src="../images/tag-user.png" class="w-full h-full object-contain" alt="icon">
+                            </div>
+                            <p class="text-gray-800 text-sm md:text-base font-medium">
+                                Instructor Led & Self Paced Formats
+                            </p>
+                        </div>
+
+                        <div class="flex flex-col gap-3">
+                            <div
+                                class="bg-gradient-to-t from-[rgb(151,71,255)] to-[rgb(93,104,228)] rounded-lg p-4 w-14 h-14">
+                                <img src="../images/people.png" class="w-full h-full object-contain" alt="icon">
+                            </div>
+                            <p class="text-gray-800 text-sm md:text-base font-medium">
+                                Interactive Learning
+                            </p>
+                        </div>
+
+                        <div class="flex flex-col gap-3">
+                            <div
+                                class="bg-gradient-to-t from-[rgb(227,150,1)] to-[rgb(227,96,1)] rounded-lg p-4 w-14 h-14">
+                                <img src="../images/presention-chart.png" class="w-full h-full object-contain"
+                                    alt="icon">
+                            </div>
+                            <p class="text-gray-800 text-sm md:text-base font-medium">
+                                Live Classes & Recordings
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button
+                            class="bg-[rgb(42,142,158)] hover:bg-[rgb(2,51,71)] text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg">
+                            Register for a Course
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4 sm:px-6 lg:px-16">
+        <div class="flex items-center justify-center">
+            <div class="w-full max-w-7xl bg-[rgb(2,51,71)] rounded-3xl p-16 relative overflow-hidden">
+
+
+                <div class="hidden sm:block absolute top-32 right-0 w-1/4 h-16 bg-[rgba(42,142,158,0.3)] rounded">
+                </div>
+                <div class="hidden sm:block absolute bottom-24 right-0 w-2/5 h-16 bg-[rgba(42,143,158,0.3)] rounded">
+                </div>
+                <div class="hidden sm:block absolute bottom-0 right-0 w-1/2 h-16 bg-[rgba(42,142,158,0.3)] rounded">
+                </div>
+
+                <div class="relative z-10 max-w-xl">
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+                        Ready to Build<br />Something Powerful?
+                    </h1>
+
+                    <p class="text-gray-50 text-base sm:text-lg mb-8">
+                        Let's help you transform your ideas into real, <br />scalable solutions.
+                    </p>
+
+                    <button
+                        class="bg-[rgb(42,142,158)] text-white font-semibold px-8 py-3 rounded-lg transition-colors">
+                        <a href="">Start a project</a>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-24 py-12">
+            <div class="flex flex-col md:flex-row justify-between gap-x-6 gap-y-8">
+                <div class="w-full md:w-[220px] space-y-4">
+                    <div class="w-10">
+                        <img src="../images/logo.svg" alt="logo-icon">
+                    </div>
+                    <p class="text-gray-700 text-sm">
+                        Leading technology company delivering software solutions
+                    </p>
+                    <div class="flex space-x-4">
+                        <img src="../images/linkedin-round.png" alt="linkedin-icon">
+                        <img src="../images/facebook.png" alt="">
+                        <img src="../images/twitter-round.png" alt="">
+                    </div>
+                </div>
+
+                <div class="w-full md:w-[220px] flex flex-col item-start md:items-center">
+                    <h4 class="text-base font-semibold mb-5 text-[rgb(2,51,71)]">Quick Links</h4>
+                    <ul class="space-y-3 text-gray-700">
+                        <li><a href="./about.html"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">About
+                                Us</a></li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Solutions</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Training</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w-full md:w-[340px]">
+                    <h4 class="text-base font-semibold mb-5 text-[rgb(2,51,71)]">Contact Us</h4>
+                    <div class="space-y-4 text-gray-700">
+
+                        <div class="flex items-start space-x-3">
+                            <img src="../images/Vector.png" class="w-2" alt="location-icon">
+                            <p class="text-sm">
+                                Pent-floor, Gobi Plaza, Ile-Epo Alhaji Bus Stop
+                                Egbeda, Lagos, Nigeria
+                            </p>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <img src="../images/mail-sharp.png" class="w-4" alt="mail-icon">
+                            <p class="text-sm text-gray-700">mmm@gmail.com</p>
+                        </div>
+
+                        <div class="flex items-center space-x-3">
+                            <img src="../images/call-sharp.png" class="w-4" alt="call-icon">
+                            <p class="text-sm text-gray-700 break-words">+2348064458792 +2347083411831 </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
+                <p class="mb-4 sm:mb-0">
+                    2025 Majadtek Nigeria Company
+                </p>
+                <div class="space-x-4">
+                    <a href="#" class="hover:text-[rgb(42,142,158)] transition">Terms of Service</a>
+                    <span>•</span>
+                    <a href="#" class="hover:text-[rgb(42,142,158)] transition">Privacy policy</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../scripts/index.js"></script>
+</body>
+
+</html>

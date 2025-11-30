@@ -1,0 +1,487 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-white font-plus">
+    <header class="shadow-sm fixed w-full z-20 bg-[rgb(247,252,253)] top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 w-10">
+                    <a href="index.html">
+                        <img src="../images/logo.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <nav class="hidden md:flex items-center space-x-8 text-gray-700 font-medium text-sm">
+                    <a href="about.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">About
+                        Us</a>
+                    <a href="solution.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Solutions</a>
+                    <a href="training.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Training
+                        Hub</a>
+                    <a href="portfolio.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Portfolio</a>
+                    <a href="career.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Careers</a>
+                </nav>
+
+                <a href="./project.html"
+                    class="hidden md:flex items-center bg-[rgb(42,142,158)] text-white px-6 py-2 rounded text-sm font-medium shadow-sm hover:bg-teal-600 transition">
+                    Start a Project
+                </a>
+
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700 p-2 focus:outline-none">
+                    <img src="../images/hamburger-menu.png" id="open-icon" alt="menu-icon" class="w-6 h-6">
+                    <img src="../images/close-icon.png" class="hidden w-6 h-6" id="close-icon" alt="close-icon">
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden bg-[rgb(247,252,253)] pb-4 pt-2">
+                <nav class="flex flex-col space-y-3 text-gray-700 font-medium text-sm px-2">
+                    <a href="about.html" class="nav-link block px-3 py-2 border-b-2 border-transparent transition">About
+                        Us</a>
+                    <a href="solution.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Solutions</a>
+                    <a href="training.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Training
+                        Hub</a>
+                    <a href="portfolio.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Portfolio</a>
+                    <a href="career.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Careers</a>
+                </nav>
+
+                <div class="my-6 px-3">
+                    <a href="./project.html"
+                        class="bg-[rgb(42,142,158)] text-white px-6 py-2 rounded shadow-sm text-sm text-center font-semibold block hover:bg-teal-600 transition">
+                        Start a Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative w-full overflow-hidden bg-[rgb(247,252,253)] py-20 sm:py-40 px-4 sm:px-6">
+        <div class="absolute inset-0 bg-[url('../images/background-pattern.png')] opacity-20 pointer-events-none"></div>
+        <div
+            class="absolute bottom-10 right-[20%] -translate-y-1/2 translate-x-20 w-80 h-16 bg-[rgba(42,142,158,0.2)] -rotate-45">
+        </div>
+        <div
+            class="absolute top-[40%] right-0 -translate-y-1/2 translate-x-16 w-72 h-16 bg-[rgba(42,142,158,0.2)] -rotate-45 z-10">
+        </div>
+
+        <div class="absolute -bottom-0 -right-40 w-80 h-16 bg-[rgba(42,142,158,0.2)] -rotate-45"></div>
+
+        <div class="relative w-full mx-2 lg:mx-10 text-start space-y-4 sm:space-y-8 z-10">
+            <h1 class="text-xl sm:text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
+                Front-End Developer
+            </h1>
+            <p class="text-sm md:text-base text-gray-700">
+                Lagos, Nigeria
+            </p>
+            <div>
+                <a href="#"
+                    class="bg-[rgb(42,142,158)] text-white px-6 py-3 rounded text-sm font-medium shadow-sm hover:bg-teal-600 transition">
+                    Apply now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-4 sm:px-8 lg:px-32 py-12 sm:py-16 lg:py-20 bg-white">
+        <div class="max-w-4xl mx-auto space-y-10">
+
+            <!-- Job Description -->
+            <div class="space-y-4">
+                <h3 class="text-2xl sm:text-3xl font-bold text-gray-900">Job Description</h3>
+
+                <div class="flex items-center gap-3 text-gray-700">
+                    <span class="font-semibold">Front End Developer</span>
+                    <span>|</span>
+                    <span>2 years Experience</span>
+                </div>
+
+                <p class="text-gray-700 leading-relaxed text-base">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc.
+                    Proin at dui aliquam sed commodo sit amet consectetur.
+                </p>
+            </div>
+
+            <!-- Role Responsibilities -->
+            <div class="space-y-3">
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">What will you be doing?</h2>
+                <ul class="space-y-2">
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Feugiat venenatis sed ac massa nunc lorem ipsum.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Collaborate with team members to achieve project goals.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Maintain responsive and high-performance UI.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Job Requirements -->
+            <div class="space-y-3">
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">Job Requirements</h2>
+                <ul class="space-y-2">
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>2+ years experience in front-end development.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Proficiency in HTML, CSS, JavaScript.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Strong understanding of responsive design.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Attention to detail and UI consistency.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- What We Offer -->
+            <div class="space-y-3">
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">What We Offer</h2>
+                <ul class="space-y-2">
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Competitive salary and benefits.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Opportunities for career growth.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Collaborative work environment.</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-gray-700">
+                        <span class="font-bold text-base flex-shrink-0">•</span>
+                        <span>Remote-friendly flexibility.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-32">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-10">Apply for this position</h2>
+
+        <form id="applicationForm" class="space-y-8" novalidate>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required pattern="[A-Za-z\s]+"
+                        placeholder="Enter First Name"
+                        class="w-full mt-1 border rounded-md px-3 py-2 text-gray-700 focus:ring-2 focus:ring-teal-600" />
+                    <p class="text-red-600 text-sm hidden" id="fnameError">Enter a valid first name</p>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required pattern="[A-Za-z\s]+"
+                        placeholder="Enter Last Name"
+                        class="w-full mt-1 border rounded-md px-3 py-2 text-gray-700 focus:ring-2 focus:ring-teal-600" />
+                    <p class="text-red-600 text-sm hidden" id="lnameError">Enter a valid last name</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Email address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter Email address"
+                        class="w-full mt-1 border rounded-md px-3 py-2 text-gray-700 focus:ring-2 focus:ring-teal-600" />
+                    <p class="text-red-600 text-sm hidden" id="emailError">Enter a valid email address</p>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Phone number</label>
+                    <input type="text" id="phone" name="phone" required pattern="^[0-9]{10,14}$"
+                        placeholder="Enter mobile number"
+                        class="w-full mt-1 border rounded-md px-3 py-2 text-gray-700 focus:ring-2 focus:ring-teal-600" />
+                    <p class="text-red-600 text-sm hidden" id="phoneError">Phone must be 10–14 digits</p>
+                </div>
+            </div>
+
+            <div class="space-y-2">
+                <label class="block text-sm font-medium text-gray-700">Upload CV</label>
+
+                <div id="uploadBox"
+                    class="border-2 border-dashed border-[rgb(42,142,158)] bg-[rgb(247,252,253)] rounded-lg p-10 sm:p-16 flex flex-col items-center justify-center cursor-pointer text-center hover:bg-teal-50 transition">
+
+                    <input type="file" id="fileInput" name="cv" required accept=".pdf,.jpg,.png,.doc,.docx"
+                        class="hidden">
+
+                    <img src="../images/file-icon.png" alt="file-icon">
+
+                    <p class="text-gray-700 mt-2">
+                        Drop files here or
+                        <span id="uploadText" class="text-teal-600 underline cursor-pointer">upload from device</span>
+                    </p>
+                    <p id="fileName" class="text-sm text-gray-500 mt-1">
+                        Supported: PDF, JPG, PNG, DOC, DOCX
+                    </p>
+                    <p class="text-red-600 text-sm hidden" id="fileError">Upload your CV</p>
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-sm font-medium text-gray-700">Tell us why you want to work with us</label>
+                <textarea rows="4" id="message" name="message" required placeholder="Give us interesting reasons..."
+                    class="w-full mt-1 border rounded-md px-3 py-2 text-gray-700 focus:ring-2 focus:ring-teal-600"></textarea>
+                <p class="text-red-600 text-sm hidden" id="msgError">This field is required</p>
+            </div>
+
+            <div class="flex justify-end">
+                <button type="submit"
+                    class="bg-[rgb(42,142,158)] text-white px-6 py-3 rounded-md font-medium hover:bg-teal-700 transition">
+                    Submit Application
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <section class="py-14 px-4 md:px-10 lg:px-20 bg-white">
+        <div class="text-center mb-4">
+            <span class="inline-block bg-[rgb(245,250,255)] text-[rgb(42,142,158)] border border-[rgb(217,235,255)]
+                     text-xs sm:text-sm px-3 py-1 rounded-full">
+                Join Us
+            </span>
+        </div>
+
+        <h2 class="text-center text-2xl sm:text-3xl font-bold text-gray-900 mb-16">
+            Other Open positions
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 max-w-7xl mx-auto">
+
+            <div class="flex flex-col gap-4">
+                <label class="text-gray-600 text-sm">Search for a job title</label>
+                <div class="relative">
+                    <input type="text" placeholder="Search for a job"
+                        class="w-full py-3 pl-10 pr-4 focus:outline-none focus:border-[rgb(42,142,158)] bg-[rgb(249,250,251)]">
+                    <img src="../images/search-icon.png" class="w-5 h-5 absolute left-3 top-3.5 alt=" search-icon">
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <label class="text-gray-600 text-sm">Location</label>
+                <select
+                    class="w-full py-3 px-4 focus:outline-none focus:border-[rgb(42,142,158)] bg-[rgb(249,250,251)]">
+                    <option>Anywhere</option>
+                </select>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <label class="text-gray-600 text-sm">Categories</label>
+                <select
+                    class="w-full py-3 px-4 focus:outline-none focus:border-[rgb(42,142,158)] bg-[rgb(249,250,251)]">
+                    <option>Design</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
+            <div class="flex flex-col gap-6 rounded-xl py-8 px-12 bg-white shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">FrontEnd developer</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc. Proin
+                    at dui aliquam sed commodo sit. Proin at dui aliquam sed commodo sit. Lorem ipsum dolor sit amet
+                    consectetur.
+                </p>
+
+                <a href="apply.html" class="inline-flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-sm font-medium 
+                       hover:bg-gray-100 transition w-max">
+                    Apply
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-6 rounded-xl py-8 px-12 bg-white shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">FrontEnd developer</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc. Proin
+                    at dui aliquam sed commodo sit. Proin at dui aliquam sed commodo sit. Lorem ipsum dolor sit amet
+                    consectetur.
+                </p>
+
+                <a href="apply.html" class="inline-flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-sm font-medium 
+                       hover:bg-gray-100 transition w-max">
+                    Apply
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-6 rounded-xl py-8 px-12 bg-white shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">FrontEnd developer</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc. Proin
+                    at dui aliquam sed commodo sit. Proin at dui aliquam sed commodo sit. Lorem ipsum dolor sit amet
+                    consectetur.
+                </p>
+
+                <a href="apply.html" class="inline-flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-sm font-medium 
+                       hover:bg-gray-100 transition w-max">
+                    Apply
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-6 rounded-xl py-8 px-12 bg-white shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">FrontEnd developer</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc. Proin
+                    at dui aliquam sed commodo sit. Proin at dui aliquam sed commodo sit. Lorem ipsum dolor sit amet
+                    consectetur.
+                </p>
+
+                <a href="apply.html" class="inline-flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-sm font-medium 
+                       hover:bg-gray-100 transition w-max">
+                    Apply
+                    <span>→</span>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+     <section class="py-20 px-4 sm:px-6 lg:px-16">
+        <div class="flex items-center justify-center">
+            <div class="w-full max-w-7xl bg-[rgb(2,51,71)] rounded-3xl p-16 relative overflow-hidden">
+
+
+                <div class="hidden sm:block absolute top-32 right-0 w-1/4 h-16 bg-[rgba(42,142,158,0.3)] rounded"></div>
+                <div class="hidden sm:block absolute bottom-24 right-0 w-2/5 h-16 bg-[rgba(42,143,158,0.3)] rounded">
+                </div>
+                <div class="hidden sm:block absolute bottom-0 right-0 w-1/2 h-16 bg-[rgba(42,142,158,0.3)] rounded">
+                </div>
+
+                <div class="relative z-10 max-w-xl">
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+                        Ready to Build<br />Something Powerful?
+                    </h1>
+
+                    <p class="text-gray-50 text-base sm:text-lg mb-8">
+                        Let's help you transform your ideas into real, <br />scalable solutions.
+                    </p>
+
+                    <button
+                        class="bg-[rgb(42,142,158)] text-white font-semibold px-8 py-3 rounded-lg transition-colors">
+                        <a href="">Start a project</a>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-24 py-12">
+            <div class="flex flex-col md:flex-row justify-between gap-x-6 gap-y-8">
+                <div class="w-full md:w-[220px] space-y-4">
+                    <div class="w-10">
+                        <img src="../images/logo.svg" alt="logo-icon">
+                    </div>
+                    <p class="text-gray-700 text-sm">
+                        Leading technology company delivering software solutions
+                    </p>
+                    <div class="flex space-x-4">
+                        <img src="../images/linkedin-round.png" alt="linkedin-icon">
+                        <img src="../images/facebook.png" alt="">
+                        <img src="../images/twitter-round.png" alt="">
+                    </div>
+                </div>
+
+                <div class="w-full md:w-[220px] flex flex-col item-start md:items-center">
+                    <h4 class="text-base font-semibold mb-5 text-[rgb(2,51,71)]">Quick Links</h4>
+                    <ul class="space-y-3 text-gray-700">
+                        <li><a href="./about.html"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">About
+                                Us</a></li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Solutions</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Training</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w-full md:w-[340px]">
+                    <h4 class="text-base font-semibold mb-5 text-[rgb(2,51,71)]">Contact Us</h4>
+                    <div class="space-y-4 text-gray-700">
+
+                        <div class="flex items-start space-x-3">
+                            <img src="../images/Vector.png" class="w-2" alt="location-icon">
+                            <p class="text-sm">
+                                Pent-floor, Gobi Plaza, Ile-Epo Alhaji Bus Stop
+                                Egbeda, Lagos, Nigeria
+                            </p>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <img src="../images/mail-sharp.png" class="w-4" alt="mail-icon">
+                            <p class="text-sm text-gray-700">mmm@gmail.com</p>
+                        </div>
+
+                        <div class="flex items-center space-x-3">
+                            <img src="../images/call-sharp.png" class="w-4" alt="call-icon">
+                            <p class="text-sm text-gray-700 break-words">+2348064458792 +2347083411831 </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
+                <p class="mb-4 sm:mb-0">
+                    2025 Majadtek Nigeria Company
+                </p>
+                <div class="space-x-4">
+                    <a href="#" class="hover:text-[rgb(42,142,158)] transition">Terms of Service</a>
+                    <span>•</span>
+                    <a href="#" class="hover:text-[rgb(42,142,158)] transition">Privacy policy</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/apply.js"></script>
+</body>
+
+</html>

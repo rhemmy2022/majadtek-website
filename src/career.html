@@ -1,0 +1,407 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-white font-plus">
+    <header class="shadow-sm fixed w-full z-20 bg-[rgb(247,252,253)] top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 w-10">
+                    <a href="index.html">
+                        <img src="../images/logo.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <nav class="hidden md:flex items-center space-x-8 text-gray-700 font-medium text-sm">
+                    <a href="about.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">About
+                        Us</a>
+                    <a href="solution.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Solutions</a>
+                    <a href="training.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Training
+                        Hub</a>
+                    <a href="portfolio.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Portfolio</a>
+                    <a href="career.html"
+                        class="nav-link inline-block py-1 px-1 border-b-2 border-transparent transition">Careers</a>
+                </nav>
+
+                <a href="./project.html"
+                    class="hidden md:flex items-center bg-[rgb(42,142,158)] text-white px-6 py-2 rounded text-sm font-medium shadow-sm hover:bg-teal-600 transition">
+                    Start a Project
+                </a>
+
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700 p-2 focus:outline-none">
+                    <img src="../images/hamburger-menu.png" id="open-icon" alt="menu-icon" class="w-6 h-6">
+                    <img src="../images/close-icon.png" class="hidden w-6 h-6" id="close-icon" alt="close-icon">
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden bg-[rgb(247,252,253)] pb-4 pt-2">
+                <nav class="flex flex-col space-y-3 text-gray-700 font-medium text-sm px-2">
+                    <a href="about.html" class="nav-link block px-3 py-2 border-b-2 border-transparent transition">About
+                        Us</a>
+                    <a href="solution.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Solutions</a>
+                    <a href="training.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Training
+                        Hub</a>
+                    <a href="portfolio.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Portfolio</a>
+                    <a href="career.html"
+                        class="nav-link block px-3 py-2 border-b-2 border-transparent transition">Careers</a>
+                </nav>
+
+                <div class="my-6 px-3">
+                    <a href="./project.html"
+                        class="bg-[rgb(42,142,158)] text-white px-6 py-2 rounded shadow-sm text-sm text-center font-semibold block hover:bg-teal-600 transition">
+                        Start a Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative w-full overflow-hidden bg-center bg-no-repeat bg-cover
+    bg-[linear-gradient(to_bottom,rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url('../images/career-image.png')]
+    min-h-[450px] md:min-h-[520px] lg:min-h-[600px] flex items-center px-4 sm:px-10 lg:px-16">
+        <div class="max-w-[560px] flex flex-col gap-5">
+            <h2 class="pt-6 md:pt-24 text-2xl md:text-3xl lg:text-5xl font-semibold 
+                       leading-[40px] md:leading-[60px] lg:leading-[70px] text-white">
+                Join the Team That’s Shaping the Future of Technology
+            </h2>
+
+            <p class="text-white leading-7 sm:leading-loose text-sm sm:text-base mb-4">
+                At Majadtek, we’re building innovative solutions in software, training, and STEM. If you’re passionate
+                about technology, creativity, and making an impact, this is the place for you.
+            </p>
+
+            <a href="#" class="inline-block self-start bg-[rgb(42,142,158)] text-white px-4 py-3
+            rounded-lg text-sm font-medium transition duration-200 shadow 
+                hover:opacity-95 hover:scale-[1.03]">
+                Explore open positions
+            </a>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="mx-auto max-w-7xl px-4 md:px-12 lg:px-16 py-12 md:py-16 lg:py-20">
+            <div class="text-center mb-8 sm:mb-12 md:mb-16">
+                <div
+                    class="inline-block bg-[rgb(245,250,255)] text-[rgb(42,142,158)] border border-[rgb(217,235,255)] text-xs sm:text-sm px-3 sm:px-4 py-1 rounded-full mb-2 sm:mb-4">
+                    Why Majadtek
+                </div>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-4 text-gray-800">
+                    Why Work With Us
+                </h2>
+                <p class="text-gray-600 text-sm sm:text-base max-w-xl mx-auto">
+                    Working with us means being part of a team that’s transforming industries, empowering learners, and
+                    creating future-ready solutions.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
+
+                <div class="flex flex-col gap-4 items-center">
+                    <div>
+                        <img src="../images/one.png" class="w-20" alt="one-icon">
+                    </div>
+
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900">Cutting Edge Projects<h3>
+                            <p class="text-gray-600 text-sm md:text-base leading-relaxed text-center">
+                                Work on innovative software, training & robotics solutions that make a real impact
+                                across industries.
+                            </p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-center">
+                    <div>
+                        <img src="../images/two.png" class="w-20" alt="two-icon">
+                    </div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900">Professional Growth</h3>
+                    <p class="text-gray-600 text-sm md:text-base leading-relaxed text-center">
+                        Access mentorship, training, and continuous learning opportunities to advance your career and
+                        skillset.
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-center">
+                    <div>
+                        <img src="../images/three.png" class="w-20" alt="three-icon">
+                    </div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900">Collaborative environment</h3>
+                    <p class="text-gray-600 text-sm md:text-base leading-relaxed text-center">
+                        Join a supportive team where ideas are valued, knowledge is shared, and creativity thrives.
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-center">
+                    <div>
+                        <img src="../images/four.png" class="w-20" alt="four-icon">
+                    </div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900">Meaningful Impact</h3>
+                    <p class="text-gray-600 text-sm md:text-base leading-relaxed text-center">
+                        Contribute to projects that improve systems, empower learners, and transform organizations.
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-center">
+                    <div>
+                        <img src="../images/five.png" class="w-20" alt="five-icon">
+                    </div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900">Diversity & Inclusion</h3>
+                    <p class="text-gray-600 text-sm md:text-base leading-relaxed text-center">
+                        We believe in growth, ongoing skill development, and empowering others through knowledge and
+                        education.
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-4 items-center">
+                    <div>
+                        <img src="../images/six.png" class="w-20" alt="six-icon">
+                    </div>
+                    <h3 class="text-lg md:text-xl font-bold text-gray-900">Flexibility</h3>
+                    <p class="text-gray-600 text-sm md:text-base leading-relaxed text-center">
+                        Enjoy a culture that values work-life balance, encourages initiative, and trusts employees to
+                        excel.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex justify-center mt-24">
+                <a href="#" class="bg-[rgb(42,142,158)] text-white px-8 py-4 rounded-lg text-sm font-medium 
+              transition duration-200 shadow hover:opacity-95 hover:scale-[1.03]">
+                    View opportunities
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-14 px-4 md:px-10 lg:px-20 bg-white">
+        <div class="text-center mb-4">
+            <span class="inline-block bg-[rgb(245,250,255)] text-[rgb(42,142,158)] border border-[rgb(217,235,255)]
+                     text-xs sm:text-sm px-3 py-1 rounded-full">
+                Why Majadtek
+            </span>
+        </div>
+
+        <h2 class="text-center text-2xl sm:text-3xl font-bold text-gray-900 mb-16">
+            Open positions
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 max-w-7xl mx-auto">
+
+            <div class="flex flex-col gap-4">
+                <label class="text-gray-600 text-sm">Search for a job title</label>
+                <div class="relative">
+                    <input type="text" placeholder="Search for a job"
+                        class="w-full py-3 pl-10 pr-4 focus:outline-none focus:border-[rgb(42,142,158)] bg-[rgb(249,250,251)]">
+                    <img src="../images/search-icon.png" class="w-5 h-5 absolute left-3 top-3.5 alt=" search-icon">
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <label class="text-gray-600 text-sm">Location</label>
+                <select
+                    class="w-full py-3 px-4 focus:outline-none focus:border-[rgb(42,142,158)] bg-[rgb(249,250,251)]">
+                    <option>Anywhere</option>
+                </select>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <label class="text-gray-600 text-sm">Categories</label>
+                <select
+                    class="w-full py-3 px-4 focus:outline-none focus:border-[rgb(42,142,158)] bg-[rgb(249,250,251)]">
+                    <option>Design</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
+            <div class="flex flex-col gap-6 rounded-xl py-8 px-12 bg-white shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">FrontEnd developer</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc. Proin
+                    at dui aliquam sed commodo sit. Proin at dui aliquam sed commodo sit. Lorem ipsum dolor sit amet
+                    consectetur.
+                </p>
+
+                <a href="apply.html" class="inline-flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-sm font-medium 
+                       hover:bg-gray-100 transition w-max">
+                    Apply
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-6 rounded-xl py-8 px-12 bg-white shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">FrontEnd developer</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc. Proin
+                    at dui aliquam sed commodo sit. Proin at dui aliquam sed commodo sit. Lorem ipsum dolor sit amet
+                    consectetur.
+                </p>
+
+                <a href="apply.html" class="inline-flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-sm font-medium 
+                       hover:bg-gray-100 transition w-max">
+                    Apply
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-6 rounded-xl py-8 px-12 bg-white shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">FrontEnd developer</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc. Proin
+                    at dui aliquam sed commodo sit. Proin at dui aliquam sed commodo sit. Lorem ipsum dolor sit amet
+                    consectetur.
+                </p>
+
+                <a href="apply.html" class="inline-flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-sm font-medium 
+                       hover:bg-gray-100 transition w-max">
+                    Apply
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-6 rounded-xl py-8 px-12 bg-white shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900">FrontEnd developer</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur. Risus amet lectus feugiat venenatis sed ac massa nunc. Proin
+                    at dui aliquam sed commodo sit. Proin at dui aliquam sed commodo sit. Lorem ipsum dolor sit amet
+                    consectetur.
+                </p>
+
+                <a href="apply.html" class="inline-flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-md text-sm font-medium 
+                       hover:bg-gray-100 transition w-max">
+                    Apply
+                    <span>→</span>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="py-20 px-4 sm:px-6 lg:px-16">
+        <div class="flex items-center justify-center">
+            <div class="w-full max-w-7xl bg-[rgb(2,51,71)] rounded-3xl p-16 relative overflow-hidden">
+
+
+                <div class="hidden sm:block absolute top-32 right-0 w-1/4 h-16 bg-[rgba(42,142,158,0.3)] rounded"></div>
+                <div class="hidden sm:block absolute bottom-24 right-0 w-2/5 h-16 bg-[rgba(42,143,158,0.3)] rounded">
+                </div>
+                <div class="hidden sm:block absolute bottom-0 right-0 w-1/2 h-16 bg-[rgba(42,142,158,0.3)] rounded">
+                </div>
+
+                <div class="relative z-10 max-w-xl">
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+                        Ready to Build<br />Something Powerful?
+                    </h1>
+
+                    <p class="text-gray-50 text-base sm:text-lg mb-8">
+                        Let's help you transform your ideas into real, <br />scalable solutions.
+                    </p>
+
+                    <button
+                        class="bg-[rgb(42,142,158)] text-white font-semibold px-8 py-3 rounded-lg transition-colors">
+                        <a href="">Start a project</a>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-24 py-12">
+            <div class="flex flex-col md:flex-row justify-between gap-x-6 gap-y-8">
+                <div class="w-full md:w-[220px] space-y-4">
+                    <div class="w-10">
+                        <img src="../images/logo.svg" alt="logo-icon">
+                    </div>
+                    <p class="text-gray-700 text-sm">
+                        Leading technology company delivering software solutions
+                    </p>
+                    <div class="flex space-x-4">
+                        <img src="../images/linkedin-round.png" alt="linkedin-icon">
+                        <img src="../images/facebook.png" alt="">
+                        <img src="../images/twitter-round.png" alt="">
+                    </div>
+                </div>
+
+                <div class="w-full md:w-[220px] flex flex-col item-start md:items-center">
+                    <h4 class="text-base font-semibold mb-5 text-[rgb(2,51,71)]">Quick Links</h4>
+                    <ul class="space-y-3 text-gray-700">
+                        <li><a href="./about.html"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">About
+                                Us</a></li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Solutions</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Training</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w-full md:w-[340px]">
+                    <h4 class="text-base font-semibold mb-5 text-[rgb(2,51,71)]">Contact Us</h4>
+                    <div class="space-y-4 text-gray-700">
+
+                        <div class="flex items-start space-x-3">
+                            <img src="../images/Vector.png" class="w-2" alt="location-icon">
+                            <p class="text-sm">
+                                Pent-floor, Gobi Plaza, Ile-Epo Alhaji Bus Stop
+                                Egbeda, Lagos, Nigeria
+                            </p>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <img src="../images/mail-sharp.png" class="w-4" alt="mail-icon">
+                            <p class="text-sm text-gray-700">mmm@gmail.com</p>
+                        </div>
+
+                        <div class="flex items-center space-x-3">
+                            <img src="../images/call-sharp.png" class="w-4" alt="call-icon">
+                            <p class="text-sm text-gray-700 break-words">+2348064458792 +2347083411831 </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
+                <p class="mb-4 sm:mb-0">
+                    2025 Majadtek Nigeria Company
+                </p>
+                <div class="space-x-4">
+                    <a href="#" class="hover:text-[rgb(42,142,158)] transition">Terms of Service</a>
+                    <span>•</span>
+                    <a href="#" class="hover:text-[rgb(42,142,158)] transition">Privacy policy</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../scripts/index.js"></script>
+</body>
+
+</html>
