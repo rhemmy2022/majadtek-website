@@ -17,7 +17,7 @@
             <div class="flex items-center justify-between h-16">
                 <div class="flex-shrink-0 w-10">
                     <a href="index.html">
-                        <img src="../images/logo.svg" alt="Logo">
+                        <img src="images/logo.svg" alt="Logo">
                     </a>
                 </div>
 
@@ -42,8 +42,8 @@
                 </a>
 
                 <button id="mobile-menu-btn" class="md:hidden text-gray-700 p-2 focus:outline-none">
-                    <img src="../images/hamburger-menu.png" id="open-icon" alt="menu-icon" class="w-6 h-6">
-                    <img src="../images/close-icon.png" class="hidden w-6 h-6" id="close-icon" alt="close-icon">
+                    <img src="images/hamburger-menu.png" id="open-icon" alt="menu-icon" class="w-6 h-6">
+                    <img src="images/close-icon.png" class="hidden w-6 h-6" id="close-icon" alt="close-icon">
                 </button>
             </div>
 
@@ -72,8 +72,9 @@
         </div>
     </header>
 
-    <section class="bg-[rgb(247,252,253)] w-full relative h-fit overflow-hidden animate-section opacity-0 -translate-x-10 transition-all duration-700">
-        <div class="absolute inset-0 bg-[url('../images/background-pattern.png')] opacity-20 pointer-events-none"></div>
+    <section
+        class="bg-[rgb(247,252,253)] w-full relative h-fit overflow-hidden  animate-section opacity-0 -translate-x-10 transition-all duration-700">
+        <div class="absolute inset-0 bg-[url('images/background-pattern.png')] opacity-20 pointer-events-none"></div>
         <div class="hidden lg:block absolute top-8 right-[25%] w-1/4 h-16 bg-[rgba(42,142,158,0.2)] rounded 
             -rotate-45 origin-center"></div>
 
@@ -111,13 +112,13 @@
                         <a href="project.html"
                             class="bg-[rgb(42,142,158)] text-white px-8 py-3 rounded-lg text-sm font-medium transition duration-200 shadow hover:opacity-95">
                             Start a Project
-                    </a>
+                        </a>
 
-                        <button
+                        <a href="training.html"
                             class="bg-white text-gray-800 px-8 py-3 rounded-lg text-sm font-medium border border-gray-300 shadow-sm hover:bg-gray-50 transition duration-200 flex items-center gap-2 z-10">
                             View Courses
                             <span>➜</span>
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -125,7 +126,7 @@
                     <div class="relative w-[90vw] max-w-[581px] aspect-[581/585] 
                      rounded-[2rem] border-4 border-[#2a8e9e] overflow-visible p-1">
 
-                        <img src="../images/banner-image.png" alt="banner-image" class="absolute -left-[3%] top-1/2 -translate-y-1/2
+                        <img src="images/banner-image.png" alt="banner-image" class="absolute -left-[3%] top-1/2 -translate-y-1/2
                     w-[101%] max-w-[588px] aspect-[588/559] object-cover rounded-[1.75rem]">
                     </div>
                 </div>
@@ -134,7 +135,8 @@
 
     </section>
 
-    <section class="bg-[rgb(247,252,253)] p-6 sm:p-8 md:p-12  animate-section opacity-0 -translate-x-10 transition-all duration-700">
+    <section
+        class="bg-[rgb(247,252,253)] p-6 sm:p-8 md:p-12  animate-section opacity-0 -translate-x-10 transition-all duration-700">
         <div class="bg-white p-6 sm:p-8 md:p-12 border rounded-xl shadow-md">
             <div class="text-center mb-10 md:mb-12">
                 <div
@@ -155,7 +157,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <div class="p-4 sm:p-6">
                     <div class="w-full h-32 sm:h-40 mb-4">
-                        <img src="../images/image-1.png" alt="image-1"
+                        <img src="images/image-1.png" alt="image-1"
                             class="w-full h-full object-cover rounded-xl border">
                     </div>
                     <h3 class="text-base sm:text-lg font-semibold mb-3">
@@ -170,7 +172,7 @@
 
                 <div class="p-4 sm:p-6">
                     <div class="w-full h-32 sm:h-40 mb-4">
-                        <img src="../images/image-2.png" alt="image-2"
+                        <img src="images/image-2.png" alt="image-2"
                             class="w-full h-full object-cover rounded-xl border">
                     </div>
                     <h3 class="text-base sm:text-lg font-bold mb-3">Professional Training</h3>
@@ -182,7 +184,7 @@
 
                 <div class="p-4 sm:p-6">
                     <div class="h-32 sm:h-40 mb-4">
-                        <img src="../images/image-3.png" alt="image-3"
+                        <img src="images/image-3.png" alt="image-3"
                             class="w-full h-full object-cover rounded-xl border">
                     </div>
                     <h3 class="text-base sm:text-lg font-semibold mb-3">Robotics and STEM</h3>
@@ -249,9 +251,10 @@
             <h2 class="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold mb-4">
                 Multiple projects delivered <br> across different sectors
             </h2>
-            <button class="bg-[rgb(42,142,158)] px-4 sm:px-6 py-2 sm:py-3 rounded-lg mt-2 sm:mt-4">
+            <a href="project.html"
+                class="bg-[rgb(42,142,158)] text-white font-semibold px-8 py-3 rounded-lg transition-colors">
                 Start a project
-            </button>
+            </a>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -351,10 +354,10 @@
                         Let's help you transform your ideas into real, <br />scalable solutions.
                     </p>
 
-                    <button
+                    <a href="project.html"
                         class="bg-[rgb(42,142,158)] text-white font-semibold px-8 py-3 rounded-lg transition-colors">
-                        <a href="">Start a project</a>
-                    </button>
+                        Start a project
+                    </a>
                 </div>
 
             </div>
@@ -366,15 +369,15 @@
             <div class="flex flex-col md:flex-row justify-between gap-x-6 gap-y-8">
                 <div class="w-full md:w-[220px] space-y-4">
                     <div class="w-10">
-                        <img src="../images/logo.svg" alt="logo-icon">
+                        <img src="images/logo.svg" alt="logo-icon">
                     </div>
                     <p class="text-gray-700 text-sm">
                         Leading technology company delivering software solutions
                     </p>
                     <div class="flex space-x-4">
-                        <img src="../images/linkedin-round.png" alt="linkedin-icon">
-                        <img src="../images/facebook.png" alt="">
-                        <img src="../images/twitter-round.png" alt="">
+                        <img src="images/linkedin-round.png" alt="linkedin-icon">
+                        <img src="images/facebook.png" alt="">
+                        <img src="images/twitter-round.png" alt="">
                     </div>
                 </div>
 
@@ -401,7 +404,7 @@
                     <div class="space-y-4 text-gray-700">
 
                         <div class="flex items-start space-x-3">
-                            <img src="../images/Vector.png" class="w-2" alt="location-icon">
+                            <img src="images/Vector.png" class="w-2" alt="location-icon">
                             <p class="text-sm">
                                 Pent-floor, Gobi Plaza, Ile-Epo Alhaji Bus Stop
                                 Egbeda, Lagos, Nigeria
@@ -409,12 +412,12 @@
                         </div>
 
                         <div class="flex items-center space-x-2">
-                            <img src="../images/mail-sharp.png" class="w-4" alt="mail-icon">
+                            <img src="images/mail-sharp.png" class="w-4" alt="mail-icon">
                             <p class="text-sm text-gray-700">mmm@gmail.com</p>
                         </div>
 
                         <div class="flex items-center space-x-3">
-                            <img src="../images/call-sharp.png" class="w-4" alt="call-icon">
+                            <img src="images/call-sharp.png" class="w-4" alt="call-icon">
                             <p class="text-sm text-gray-700 break-words">+2348064458792 +2347083411831 </p>
                         </div>
 
@@ -438,7 +441,7 @@
         </div>
     </footer>
 
-    <script src="../scripts/index.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
