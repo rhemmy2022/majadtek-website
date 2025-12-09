@@ -15,9 +15,9 @@
     <header class="shadow-sm fixed w-full z-20 bg-[rgb(247,252,253)] top-0">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
             <div class="flex items-center justify-between h-16">
-                <div class="flex-shrink-0 w-10">
+                <div class="flex-shrink-0 w-12 md:w-10">
                     <a href="index.html">
-                        <img src="images/logo.svg" alt="Logo">
+                        <img src="images/logo.svg" alt="Logo" class="w-full h-auto">
                     </a>
                 </div>
 
@@ -101,7 +101,7 @@
                 <p class="text-gray-600 mb-6 leading-relaxed">
                     Upskill with industry-relevant, hands-on training designed to help you grow your career in tech
                 </p>
-                <a href=""
+                <a href="majadtek.html"
                     class="inline-flex text-sm items-center gap-2 text-[rgb(42,142,158)] font-semibold hover:text-green-800 transition-colors">
                     Explore Majadtek Academy
                     <img src="images/arrow-right-green.png" alt="" class="w-4 h-4">
@@ -116,7 +116,7 @@
                     Inspiring creativity & problem-solving through hands-on robotics, coding & STEM programs designed
                     for learners of all ages
                 </p>
-                <a href=""
+                <a href="robotics.html"
                     class="inline-flex text-sm items-center gap-2 text-[rgb(42,142,158)] font-semibold hover:text-green-800 transition-colors">
                     Explore Robotic and STEM Programs
                     <img src="images/arrow-right-green.png" alt="" class="w-4 h-4">
@@ -127,6 +127,7 @@
 
     <section class="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-16 bg-gray-50">
         <div class="max-w-7xl mx-auto">
+
             <div class="text-center mb-12 lg:mb-16">
                 <div
                     class="inline-block bg-[rgb(245,250,255)] text-[rgb(42,142,158)] border border-[rgb(217,235,255)] text-xs sm:text-sm font-medium px-4 py-2 rounded-full mb-4">
@@ -141,85 +142,144 @@
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-                <div
-                    class="bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
-                    <div class="relative overflow-hidden aspect-video">
-                        <img src="images/training-hub-image.jpg"
-                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                            alt="Front End Development Course">
-                    </div>
-                    <div class="p-3">
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">Front End Development</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed mb-3">
-                            We design and develop secure, scalable, and intelligent digital systems tailored to the
-                            needs of governments and enterprises.
-                        </p>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center gap-2">
-                                <img src="images/volume.png" class="w-4 h-4" alt="volume-icon">
-                                <p class="text-sm text-gray-700 font-medium">Intermediate</p>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <img src="images/time.png" class="w-4 h-4" alt="time-icon">
-                                <p class="text-sm text-gray-700 font-medium">6 weeks</p>
+            <div class="relative">
+                <button id="prevBtn"
+                    class="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-gray-100">
+                    ◀
+                </button>
+
+                <div id="courseCarousel" class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 px-2 sm:px-0
+    [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
+                    <div
+                        class="min-w-[320px] sm:min-w-[360px] bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group snap-center">
+                        <div class="relative overflow-hidden aspect-video">
+                            <img src="images/training-hub-image.jpg"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-3">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Data Analytics</h3>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                                We design and develop secure, scalable solutions for growth.
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1 text-sm"><img src="images/volume.png"
+                                        class="w-4 h-4"> Intermediate</span>
+                                <span class="flex items-center gap-1 text-sm"><img src="images/time.png"
+                                        class="w-4 h-4"> 6 weeks</span>
                             </div>
                         </div>
                     </div>
+
+                    <div
+                        class="min-w-[320px] sm:min-w-[360px] bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group snap-center">
+                        <div class="relative overflow-hidden aspect-video">
+                            <img src="images/frontend-image.png"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-3">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Front End Development</h3>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                                Learn user-centered design for modern experiences.
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1 text-sm"><img src="images/volume.png"
+                                        class="w-4 h-4"> Beginner</span>
+                                <span class="flex items-center gap-1 text-sm"><img src="images/time.png"
+                                        class="w-4 h-4"> 4 weeks</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="min-w-[320px] sm:min-w-[360px] bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group snap-center">
+                        <div class="relative overflow-hidden aspect-video">
+                            <img src="images/backend-image.jpeg"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-3">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Backend Web Development</h3>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                                Master insights and data-driven decisions.
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1 text-sm"><img src="images/volume.png"
+                                        class="w-4 h-4"> Intermediate</span>
+                                <span class="flex items-center gap-1 text-sm"><img src="images/time.png"
+                                        class="w-4 h-4"> 8 weeks</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="min-w-[320px] sm:min-w-[360px] bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group snap-center">
+                        <div class="relative overflow-hidden aspect-video">
+                            <img src="images/product-design.jpg"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-3">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Product Design</h3>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                                Build scalable server-side apps.
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1 text-sm"><img src="images/volume.png"
+                                        class="w-4 h-4"> Advanced</span>
+                                <span class="flex items-center gap-1 text-sm"><img src="images/time.png"
+                                        class="w-4 h-4"> 10 weeks</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="min-w-[320px] sm:min-w-[360px] bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group snap-center">
+                        <div class="relative overflow-hidden aspect-video">
+                            <img src="images/testing.jpg"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-3">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Software Testing</h3>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                                Learn to secure systems from threats.
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1 text-sm"><img src="images/volume.png"
+                                        class="w-4 h-4"> Intermediate</span>
+                                <span class="flex items-center gap-1 text-sm"><img src="images/time.png"
+                                        class="w-4 h-4"> 7 weeks</span>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div
+                        class="min-w-[320px] sm:min-w-[360px] bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group snap-center">
+                        <div class="relative overflow-hidden aspect-video">
+                            <img src="images/digital-marketing.jpeg"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-3">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Digital Marketing</h3>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-3">
+                                Learn to secure systems from threats.
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1 text-sm"><img src="images/volume.png"
+                                        class="w-4 h-4"> Intermediate</span>
+                                <span class="flex items-center gap-1 text-sm"><img src="images/time.png"
+                                        class="w-4 h-4"> 7 weeks</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div
-                    class="bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
-                    <div class="relative overflow-hidden aspect-video">
-                        <img src="images/training-hub-image.jpg"
-                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                            alt="Front End Development Course">
-                    </div>
-                    <div class="p-3">
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">Front End Development</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed mb-3">
-                            We design and develop secure, scalable, and intelligent digital systems tailored to the
-                            needs of governments and enterprises.
-                        </p>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center gap-2">
-                                <img src="images/volume.png" class="w-4 h-4" alt="volume-icon">
-                                <p class="text-sm text-gray-700 font-medium">Intermediate</p>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <img src="images/time.png" class="w-4 h-4" alt="time-icon">
-                                <p class="text-sm text-gray-700 font-medium">6 weeks</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- Right Button -->
+                <button id="nextBtn"
+                    class="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-gray-100">
+                    ▶
+                </button>
 
-                <div
-                    class="bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
-                    <div class="relative overflow-hidden aspect-video">
-                        <img src="images/training-hub-image.jpg"
-                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                            alt="Front End Development Course">
-                    </div>
-                    <div class="p-3">
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">Front End Development</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed mb-3">
-                            We design and develop secure, scalable, and intelligent digital systems tailored to the
-                            needs of governments and enterprises.
-                        </p>
-                        <div class="flex items-center justify-between">
-                            <div class="flex items-center gap-2">
-                                <img src="images/volume.png" class="w-4 h-4" alt="volume-icon">
-                                <p class="text-sm text-gray-700 font-medium">Intermediate</p>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <img src="images/time.png" class="w-4 h-4" alt="time-icon">
-                                <p class="text-sm text-gray-700 font-medium">6 weeks</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+        </div>
     </section>
 
     <section class="py-20 px-4 sm:px-6 lg:px-16">
@@ -263,9 +323,10 @@
                         Leading technology company delivering software solutions
                     </p>
                     <div class="flex space-x-4">
-                        <img src="images/linkedin-round.png" alt="linkedin-icon">
-                        <img src="images/facebook.png" alt="">
-                        <img src="images/twitter-round.png" alt="">
+                        <a href=""><img src="images/linkedin-round.png" alt="linkedin-icon"></a>
+                        <a href="https://www.facebook.com/majadteknigeria"><img src="images/facebook.png"
+                                alt="facebook-icon"></a>
+                        <a href="https://x.com/majadtekNg"><img src="images/twitter-round.png" alt="twitter-icon"></a>
                     </div>
                 </div>
 
@@ -275,13 +336,13 @@
                         <li><a href="./about.html"
                                 class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">About
                                 Us</a></li>
-                        <li><a href="#"
+                        <li><a href="solution.html"
                                 class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Solutions</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="training.html"
                                 class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Training</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="career.html"
                                 class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Careers</a>
                         </li>
                     </ul>
@@ -301,7 +362,7 @@
 
                         <div class="flex items-center space-x-2">
                             <img src="images/mail-sharp.png" class="w-4" alt="mail-icon">
-                            <p class="text-sm text-gray-700">mmm@gmail.com</p>
+                            <p class="text-sm text-gray-700">info@majadtek.com.ng</p>
                         </div>
 
                         <div class="flex items-center space-x-3">
@@ -314,7 +375,6 @@
 
             </div>
 
-            <!-- Footer Bottom -->
             <div class="mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
                 <p class="mb-4 sm:mb-0">
                     2025 Majadtek Nigeria Company
@@ -329,7 +389,58 @@
         </div>
     </footer>
 
+    <button id="openChat" class="fixed bottom-6 right-6 w-14 h-14 bg-[rgb(42,142,158)] hover:bg-[rgb(53,173,191)]
+    text-white rounded-full flex items-center justify-center shadow-lg 
+    transition-all duration-300 animate-bounce group z-50" aria-label="Open chat support">
+        <img src="images/chat-box.png" class="group-hover:scale-110 transition-transform duration-300"
+            alt="Chat support icon">
+    </button>
+
+    <div id="chatModal" class="fixed inset-0 bg-black/40 backdrop-blur-sm items-center justify-center p-4 z-50 hidden">
+
+        <div class="bg-white w-full max-w-md mx-auto my-auto rounded-xl shadow-2xl overflow-hidden 
+        sm:max-w-lg md:max-w-xl lg:max-w-2xl">
+
+            <div class="bg-[rgb(42,142,158)] text-white px-4 py-3 sm:px-6 sm:py-4 flex justify-between items-center">
+                <h2 class="text-sm sm:text-base md:text-lg font-semibold">Live Chat Support</h2>
+                <button id="closeChat" class="text-xl sm:text-2xl hover:opacity-80 transition"
+                    aria-label="Close chat">&times;</button>
+            </div>
+
+            <form id="chatForm" class="p-4 sm:p-6 space-y-3 sm:space-y-4">
+                <textarea name="message" id="messageInput" rows="6" placeholder="Type your message here..."
+                    class="w-full border rounded-lg p-3 sm:p-4 text-sm sm:text-base resize-none outline-none focus:border-teal-600 focus:ring-2 focus:ring-teal-200"
+                    required></textarea>
+
+                <button type="submit"
+                    class="w-full bg-[rgb(42,142,158)] text-white py-3 sm:py-4 rounded-lg font-medium text-sm sm:text-base hover:bg-[rgb(53,173,191)] transition transform hover:scale-[1.02] active:scale-[0.98]">
+                    Send Message
+                </button>
+            </form>
+
+            <p id="chatStatus" class="text-center text-xs sm:text-sm text-gray-500 py-2 sm:py-3"></p>
+        </div>
+
+    </div>
+
     <script src="scripts/index.js"></script>
+    <script src="scripts/chat.js"></script>
+    <script>
+        const carousel = document.getElementById("courseCarousel");
+        const nextBtn = document.getElementById("nextBtn");
+        const prevBtn = document.getElementById("prevBtn");
+
+        function scrollNext() {
+            carousel.scrollBy({ left: 350, behavior: "smooth" });
+        }
+        function scrollPrev() {
+            carousel.scrollBy({ left: -350, behavior: "smooth" });
+        }
+
+        nextBtn.addEventListener("click", scrollNext);
+        prevBtn.addEventListener("click", scrollPrev);
+    </script>
+    
 </body>
 
 </html>

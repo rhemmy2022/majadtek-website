@@ -15,9 +15,9 @@
     <header class="shadow-sm fixed w-full z-20 bg-[rgb(247,252,253)] top-0">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
             <div class="flex items-center justify-between h-16">
-                <div class="flex-shrink-0 w-10">
+                <div class="flex-shrink-0 w-12 md:w-10">
                     <a href="index.html">
-                        <img src="images/logo.svg" alt="Logo">
+                        <img src="images/logo.svg" alt="Logo" class="w-full h-auto">
                     </a>
                 </div>
 
@@ -92,129 +92,93 @@
 
     <section class="w-full py-16 px-4 sm:px-10 lg:px-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="group w-full h-[360px]" style="perspective: 1000px;">
+                <div class="relative w-full h-full transition-transform duration-700"
+                    style="transform-style: preserve-3d;" onmouseenter="this.style.transform='rotateY(180deg)'"
+                    onmouseleave="this.style.transform='rotateY(0deg)'">
 
-            <div class="group space-y-6">
-                <div class="bg-gray-200 w-full h-[360px] overflow-hidden">
-                </div>
-
-                <div class="flex items-start justify-between gap-4">
-                    <div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                            Project Name
-                        </h3>
-                        <p class="text-sm text-gray-700 bg-gray-100 px-3 py-2">
-                            SOFTWARE DEVELOPMENT
-                        </p>
+                    <div class="absolute inset-0 flex items-center justify-center p-8 border"
+                        style="backface-visibility: hidden;">
+                        <img src="images/screenshot.png" class="object-cover overflow-hidden" alt="schoolmx-logo">
                     </div>
 
-                    <a href="view-case.html" class="text-[rgb(42,142,158)] hover:text-teal-700 font-bold text-xs
-                 flex items-center gap-2 transition-all duration-200">
-                        VIEW CASE STUDY
-                        <img src="images/arrow-forward-outline.png" class="w-6" alt="icon">
-                    </a>
+                    <!-- BACK -->
+                    <div class="absolute inset-0 text-white p-3 rounded-lg shadow flex flex-col bg-[rgb(42,142,158)]"
+                        style="transform: rotateY(180deg); backface-visibility: hidden;">
+                        <h3 class="text-xl font-bold mb-4">SchoolMX</h3>
+                        <div class="flex flex-col space-y-3 text-sm leading-relaxed text-white">
+                            <p class="flex items-start gap-2">
+                                <span class="text-base leading-none">•</span>
+                                <span>The SchoolMX Solution offers schools a comprehensive ICT solution that takes care of the entire ICT needs of the school for both private and government - owned schools.</span>
+                            </p>
+
+
+                            <p class="flex items-start gap-2">
+                                <span class="text-base leading-none">•</span>
+                                <span>Comprises multiple solutions combined into one that saves time & cost.</span>
+                            </p>
+
+                            <p class="flex items-start gap-2">
+                                <span class="text-base leading-none">•</span>
+                                <span>Supports real-time user collaboration with beautiful reporting
+                                    features.</span>
+                            </p>
+
+                            <p class="flex items-start gap-2">
+                                <span class="text-lg leading-none">•</span>
+                                <span>Completely integrated, flexible and offers a lovely user experience.</span>
+                            </p>
+                        </div>
+
+                        <!-- <a href="http://schoolmx.com/overview/"
+                class="text-white hover:text-teal-700 font-bold text-xs flex items-center gap-2">
+                READ CASE STUDY
+                <img src="images/arrow-forward-outline.png" class="w-5" alt="arrow">
+            </a> -->
+                    </div>
                 </div>
             </div>
 
-            <div class="group space-y-6">
-                <div class="bg-gray-200 w-full h-[360px] overflow-hidden"></div>
+            <div class="group w-full h-[360px]" style="perspective: 1000px;">
+                <div class="relative w-full h-full transition-transform duration-700"
+                    style="transform-style: preserve-3d;" onmouseenter="this.style.transform='rotateY(180deg)'"
+                    onmouseleave="this.style.transform='rotateY(0deg)'">
 
-                <div class="flex items-start justify-between gap-4">
-                    <div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                            Project Name
-                        </h3>
-                        <p class="text-sm text-gray-700 bg-gray-100 px-3 py-2">
-                            SOFTWARE DEVELOPMENT
-                        </p>
+                    <div class="absolute inset-0 flex items-center justify-center border"
+                        style="backface-visibility: hidden;">
+                        <img src="images/majcop.png" class=" object-center" alt="majcop-logo">
                     </div>
 
-                    <a href="#" class="text-[rgb(42,142,158)] hover:text-teal-700 font-bold text-xs
-                 flex items-center gap-2 transition-all duration-200">
-                        VIEW CASE STUDY
-                        <img src="images/arrow-forward-outline.png" class="w-6" alt="icon">
-                    </a>
-                </div>
-            </div>
-            <div class="group space-y-6">
-                <div class="bg-gray-200 w-full h-[360px] overflow-hidden"></div>
+                    <div class="absolute inset-0 text-white p-3 rounded-lg shadow flex flex-col bg-[rgb(42,142,158)]"
+                        style="transform: rotateY(180deg); backface-visibility: hidden; ">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">Majcop</h3>
+                            <div class="flex flex-col space-y-3 text-sm leading-relaxed text-white">
+                                <p class="flex items-start gap-2">
+                                    <span class="text-lg leading-none">•</span>
+                                    <span>MAJCOP is a cloud-based cooperative management system for non-interest
+                                        cooperatives, offering seamless banking operations and instant reporting.
 
-                <div class="flex items-start justify-between gap-4">
-                    <div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                            Project Name
-                        </h3>
-                        <p class="text-sm text-gray-700 bg-gray-100 px-3 py-2">
-                            SOFTWARE DEVELOPMENT
-                        </p>
+                                    </span>
+                                </p>
+                                <p class="flex items-start gap-2">
+                                    <span class="text-lg leading-none">•</span>
+                                    <span>MAJCOP provides robust business intelligence and analytics tools for both
+                                        institution and customers as an efficient decision support system giving
+                                        insights that help simplify finance management.</span>
+                                </p>
+                                <p class="flex items-start gap-2">
+                                    <span class="text-lg leading-none">•</span>
+                                    <span>MAJCOP provides an AI-powered communication system between heirachies of the
+                                        organization and with customers; helps ensure a smooth flow of information
+                                        across board</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-
-                    <a href="./view-case.html" class="text-[rgb(42,142,158)] hover:text-teal-700 font-bold text-xs
-                 flex items-center gap-2 transition-all duration-200">
-                        VIEW CASE STUDY
-                        <img src="images/arrow-forward-outline.png" class="w-6" alt="icon">
-                    </a>
                 </div>
             </div>
-            <div class="group space-y-6">
-                <div class="bg-gray-200 w-full h-[360px] overflow-hidden"></div>
 
-                <div class="flex items-start justify-between gap-4">
-                    <div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                            Project Name
-                        </h3>
-                        <p class="text-sm text-gray-700 bg-gray-100 px-3 py-2">
-                            SOFTWARE DEVELOPMENT
-                        </p>
-                    </div>
-
-                    <a href="./view-case.html" class="text-[rgb(42,142,158)] hover:text-teal-700 font-bold text-xs
-                 flex items-center gap-2 transition-all duration-200">
-                        VIEW CASE STUDY
-                        <img src="images/arrow-forward-outline.png" class="w-6" alt="icon">
-                    </a>
-                </div>
-            </div>
-            <div class="group space-y-6">
-                <div class="bg-gray-200 w-full h-[360px] overflow-hidden"></div>
-
-                <div class="flex items-start justify-between gap-4">
-                    <div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                            Project Name
-                        </h3>
-                        <p class="text-sm text-gray-700 bg-gray-100 px-3 py-2">
-                            SOFTWARE DEVELOPMENT
-                        </p>
-                    </div>
-
-                    <a href="./view-case.html" class="text-[rgb(42,142,158)] hover:text-teal-700 font-bold text-xs
-                 flex items-center gap-2 transition-all duration-200">
-                        VIEW CASE STUDY
-                        <img src="images/arrow-forward-outline.png" class="w-6" alt="icon">
-                    </a>
-                </div>
-            </div>
-            <div class="group space-y-6">
-                <div class="bg-gray-200 w-full h-[360px] overflow-hidden"></div>
-
-                <div class="flex items-start justify-between gap-4">
-                    <div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                            Project Name
-                        </h3>
-                        <p class="text-sm text-gray-700 bg-gray-100 px-3 py-2">
-                            SOFTWARE DEVELOPMENT
-                        </p>
-                    </div>
-
-                    <a href="./view-case.html" class="text-[rgb(42,142,158)] hover:text-teal-700 font-bold text-xs
-                 flex items-center gap-2 transition-all duration-200">
-                        VIEW CASE STUDY
-                        <img src="images/arrow-forward-outline.png" class="w-6" alt="icon">
-                    </a>
-                </div>
-            </div>
 
         </div>
     </section>
@@ -249,7 +213,7 @@
         </div>
     </section>
 
-     <footer>
+    <footer>
         <div class="container mx-auto px-4 sm:px-6 lg:px-24 py-12">
             <div class="flex flex-col md:flex-row justify-between gap-x-6 gap-y-8">
                 <div class="w-full md:w-[220px] space-y-4">
@@ -260,9 +224,10 @@
                         Leading technology company delivering software solutions
                     </p>
                     <div class="flex space-x-4">
-                        <img src="images/linkedin-round.png" alt="linkedin-icon">
-                        <img src="images/facebook.png" alt="">
-                        <img src="images/twitter-round.png" alt="">
+                        <a href=""><img src="images/linkedin-round.png" alt="linkedin-icon"></a>
+                        <a href="https://www.facebook.com/majadteknigeria"><img src="images/facebook.png"
+                                alt="facebook-icon"></a>
+                        <a href="https://x.com/majadtekNg"><img src="images/twitter-round.png" alt="twitter-icon"></a>
                     </div>
                 </div>
 
@@ -272,13 +237,13 @@
                         <li><a href="./about.html"
                                 class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">About
                                 Us</a></li>
-                        <li><a href="#"
+                        <li><a href="solution.html"
                                 class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Solutions</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="training.html"
                                 class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Training</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="career.html"
                                 class="text-sm hover:text-[rgb(42,142,158)] hover:underline transition duration-150">Careers</a>
                         </li>
                     </ul>
@@ -298,7 +263,7 @@
 
                         <div class="flex items-center space-x-2">
                             <img src="images/mail-sharp.png" class="w-4" alt="mail-icon">
-                            <p class="text-sm text-gray-700">mmm@gmail.com</p>
+                            <p class="text-sm text-gray-700">info@majadtek.com.ng</p>
                         </div>
 
                         <div class="flex items-center space-x-3">
@@ -311,7 +276,6 @@
 
             </div>
 
-            <!-- Footer Bottom -->
             <div class="mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
                 <p class="mb-4 sm:mb-0">
                     2025 Majadtek Nigeria Company
@@ -326,7 +290,42 @@
         </div>
     </footer>
 
+    <button id="openChat" class="fixed bottom-6 right-6 w-14 h-14 bg-[rgb(42,142,158)] hover:bg-[rgb(53,173,191)]
+    text-white rounded-full flex items-center justify-center shadow-lg 
+    transition-all duration-300 animate-bounce group z-50" aria-label="Open chat support">
+        <img src="images/chat-box.png" class="group-hover:scale-110 transition-transform duration-300"
+            alt="Chat support icon">
+    </button>
+
+    <div id="chatModal" class="fixed inset-0 bg-black/40 backdrop-blur-sm items-center justify-center p-4 z-50 hidden">
+
+        <div class="bg-white w-full max-w-md mx-auto my-auto rounded-xl shadow-2xl overflow-hidden 
+        sm:max-w-lg md:max-w-xl lg:max-w-2xl">
+
+            <div class="bg-[rgb(42,142,158)] text-white px-4 py-3 sm:px-6 sm:py-4 flex justify-between items-center">
+                <h2 class="text-sm sm:text-base md:text-lg font-semibold">Live Chat Support</h2>
+                <button id="closeChat" class="text-xl sm:text-2xl hover:opacity-80 transition"
+                    aria-label="Close chat">&times;</button>
+            </div>
+
+            <form id="chatForm" class="p-4 sm:p-6 space-y-3 sm:space-y-4">
+                <textarea name="message" id="messageInput" rows="6" placeholder="Type your message here..."
+                    class="w-full border rounded-lg p-3 sm:p-4 text-sm sm:text-base resize-none outline-none focus:border-teal-600 focus:ring-2 focus:ring-teal-200"
+                    required></textarea>
+
+                <button type="submit"
+                    class="w-full bg-[rgb(42,142,158)] text-white py-3 sm:py-4 rounded-lg font-medium text-sm sm:text-base hover:bg-[rgb(53,173,191)] transition transform hover:scale-[1.02] active:scale-[0.98]">
+                    Send Message
+                </button>
+            </form>
+
+            <p id="chatStatus" class="text-center text-xs sm:text-sm text-gray-500 py-2 sm:py-3"></p>
+        </div>
+
+    </div>
+
     <script src="scripts/index.js"></script>
+    <script src="scripts/chat.js"></script>
 </body>
 
 </html>

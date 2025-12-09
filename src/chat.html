@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <!-- Chat Popup -->
+<div id="chatBox" class="hidden fixed bottom-24 right-6 w-80 bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden z-50">
+
+    <!-- Header -->
+    <div class="bg-teal-600 text-white px-4 py-3 flex items-center justify-between">
+        <h2 class="text-sm font-semibold">Customer Support</h2>
+        <button id="closeChat" class="text-white text-lg leading-none">&times;</button>
+    </div>
+
+    <!-- Messages Area -->
+    <div class="p-4 h-72 overflow-y-auto space-y-3 bg-gray-50">
+        <!-- Received Message -->
+        <div class="bg-white p-3 rounded-lg shadow-sm text-gray-800 max-w-[80%]">
+            Hi there! 👋 How can we help you today?
+        </div>
+        <!-- Sent Message -->
+        <div class="bg-teal-600 text-white p-3 rounded-lg ml-auto max-w-[80%] shadow-sm">
+            I have a question about your services.
+        </div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="border-t p-3 bg-white">
+        <div class="flex items-center gap-2">
+            <input type="text" id="chatInput" placeholder="Type a message..."
+                   class="w-full text-sm p-2 border rounded-lg outline-none focus:border-teal-600">
+            <button id="sendChat" class="bg-teal-600 text-white px-4 py-2 rounded-lg text-sm">
+                Send
+            </button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
