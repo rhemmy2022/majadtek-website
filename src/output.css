@@ -2650,6 +2650,10 @@ video {
     width: 340px;
   }
 
+  .md\:w-12 {
+    width: 3rem;
+  }
+
   .md\:max-w-xl {
     max-width: 36rem;
   }
@@ -2660,6 +2664,10 @@ video {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -2688,6 +2696,10 @@ video {
 
   .md\:p-6 {
     padding: 1.5rem;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
   }
 
   .md\:px-10 {
@@ -2855,10 +2867,6 @@ video {
 
   .lg\:justify-end {
     justify-content: flex-end;
-  }
-
-  .lg\:gap-10 {
-    gap: 2.5rem;
   }
 
   .lg\:gap-12 {
